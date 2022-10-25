@@ -78,6 +78,24 @@
     background-color: #f9aec7;
 }
 
+
+.card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: auto;
+}
+
+.card .detail-name {
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: .25rem;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
 .pokemon {
     display: flex;
     flex-direction: column;
