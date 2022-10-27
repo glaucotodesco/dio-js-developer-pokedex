@@ -156,12 +156,13 @@
     margin: auto;
     z-index: 1; /* Sit on top */
     position: relative;
-    left: -40px;
+    left: -10px;
     top: 10px;
+    
 }
 
 .parallelogram {
-	width: 270px;
+	width: 280px;
 	height: 100px;
 	transform: skew(-40deg);
 	background: #555;
@@ -170,10 +171,17 @@
     position: relative;
     left: -40px;
     opacity: 0.8;
-    border-radius: 4px;
+    border-radius: 10px;
     border-style: solid;
     border-color: #000;
     border-width: 6px;
+}
+
+.stats {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
 .pagination {
