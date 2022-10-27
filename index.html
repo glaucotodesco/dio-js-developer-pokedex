@@ -20,6 +20,7 @@
     <!-- Nosso CSS -->
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/pokedex.css">
+    <link rel="stylesheet" href="/assets/css/modal.css">
 </head>
 
 <body>
@@ -37,10 +38,24 @@
         </div>
     </section>
 
+    <div id="myModal" class="modal">
+        <div id="pokemonCard" class="card">
+            <span class="close">&times;</span>
+            <div id="pokemonDetails">
+                <div id="detail-name" class="detail-name"><span id="pokemonName"></span></div>
+            </div>
+        </div>
+        <div class="parallelogram"></div>
+        
+
+       
+    </div>
+
     <!-- Nosso JS -->
     <script src="/assets/js/pokemon-model.js"></script>
     <script src="/assets/js/poke-api.js"></script>
     <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/modal.js"></script>
 </body>
 
 </html>
